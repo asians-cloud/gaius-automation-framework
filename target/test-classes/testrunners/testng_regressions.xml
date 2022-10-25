@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Gaius Console Regression Automation Suite" verbose="4">
+
+	<listeners>
+		<listener
+			class-name="com.gaius.console.listeners.ExtentReportListener" />
+	</listeners>
+
+	<test name="Gaius Loginpage test">
+		<classes>
+			<class name="com.gaius.console.tests.LoginPageTest" />
+		</classes>
+		</test>
+		<test name="Gaius Homepage test">
+		<classes>
+			<class name="com.gaius.console.tests.HomePageTest" />
+		</classes>
+	</test>
+</suite>
