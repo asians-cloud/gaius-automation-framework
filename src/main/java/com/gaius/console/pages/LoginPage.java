@@ -1,12 +1,16 @@
 package com.gaius.console.pages;
 
+import com.gaius.console.utils.ElementUtils;
 import com.microsoft.playwright.Page;
 
 public class LoginPage {
 	
 	private Page page;
+	private ElementUtils elementUtils;
+	
 	public LoginPage(Page page) {
 		this.page = page;
+		elementUtils = new ElementUtils(page);
 	}
 	
 	private String forgotPasswordLnk= "a:text('Forgot Password?')";
@@ -20,12 +24,14 @@ public class LoginPage {
 	}
 	
 	public boolean isForgotPasswordLinkExist() {
-		return page.isVisible(forgotPasswordLnk);
+		boolean isVisibleFlag = elementUtils.isVisible(forgotPasswordLnk);
+		return isVisibleFlag;
 	}
 	public HomePage doLogin(String appUsername,String appPassword) {
-		page.fill(username, appUsername);
-		page.fill(password, appPassword);
-		page.click(SignInBtn);
+		
+		elementUtils.doFill(username, appUsername);
+		elementUtils.doFill(password, appPassword);
+		elementUtils.doClick(SignInBtn);
 		return new HomePage(page);
 	}
 

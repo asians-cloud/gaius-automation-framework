@@ -15,7 +15,6 @@ public class HomePageTest extends BaseTest{
 		homePage= loginPage.doLogin(prop.getProperty("username").trim(), prop.getProperty("password").trim());
 		String actHomePageTitle= homePage.getHomePageTitle();
 		Assert.assertEquals(actHomePageTitle, AppConstants.HOME_PAGE_TITLE);
-		
 	}
 
 }
