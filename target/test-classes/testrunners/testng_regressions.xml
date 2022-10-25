@@ -13,6 +13,7 @@
 			<class name="com.gaius.console.tests.LoginPageTest" />
 		</classes>
 		</test>
+		
 		<test name="Gaius Homepage test">
 		<classes>
 			<class name="com.gaius.console.tests.HomePageTest" />

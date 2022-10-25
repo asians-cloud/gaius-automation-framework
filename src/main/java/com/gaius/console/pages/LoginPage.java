@@ -16,7 +16,6 @@ public class LoginPage {
 			
 	public String getLoginPageTitle() {
 		String title= page.title();
-		System.out.println("LoginPage Title: "+ title);
 		return title;
 	}
 	

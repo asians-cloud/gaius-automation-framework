@@ -24,7 +24,7 @@ public class ExtentReportListener implements ITestListener {
 
 	private static ExtentReports extent = init();
 	public static ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
-	private static ExtentReports extentReports;
+	public static ExtentReports extentReports;
 	
 
 	private static ExtentReports init() {
@@ -58,7 +58,6 @@ public class ExtentReportListener implements ITestListener {
 	@Override
 	public synchronized void onStart(ITestContext context) {
 		System.out.println("Test Suite started!");
-		
 	}
 
 	@Override
@@ -118,5 +117,6 @@ public class ExtentReportListener implements ITestListener {
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
 	}
-
+	
+	
 }

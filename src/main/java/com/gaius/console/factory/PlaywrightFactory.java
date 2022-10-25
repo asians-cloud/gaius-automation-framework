@@ -49,7 +49,6 @@ public class PlaywrightFactory {
 		String browserName = prop.getProperty("browser").trim();
 		System.out.println("browser name is : " + browserName);
 
-		// playwright = Playwright.create();
 		tlPlaywright.set(Playwright.create());
 
 		switch (browserName.toLowerCase()) {

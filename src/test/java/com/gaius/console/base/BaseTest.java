@@ -5,6 +5,9 @@ import java.util.Properties;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.gaius.console.factory.PlaywrightFactory;
 import com.gaius.console.pages.HomePage;
 import com.gaius.console.pages.LoginPage;
@@ -22,7 +25,7 @@ public class BaseTest {
 	@BeforeTest
 	public void setup() {
 		playwrightFactory = new PlaywrightFactory();
-
+		
 		prop = playwrightFactory.init_prop();
 
 		/*
@@ -30,7 +33,6 @@ public class BaseTest {
 		 */
 		page = playwrightFactory.initBrowser(prop);
 		loginPage = new LoginPage(page);
-		//homePage =  new HomePage(page);
 	}
 
 	@AfterTest

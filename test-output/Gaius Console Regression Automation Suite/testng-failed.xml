@@ -6,16 +6,10 @@
   </listeners>
   <test thread-count="5" name="Gaius Loginpage test(failed)" verbose="4">
     <classes>
-      <class name="com.gaius.console.tests.HomePageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="verifyHomePageTitleTest"/>
-        </methods>
-      </class> <!-- com.gaius.console.tests.HomePageTest -->
       <class name="com.gaius.console.tests.LoginPageTest">
         <methods>
-          <include name="loginPageTitleTest"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyForgotPasswordLinkExistTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
