@@ -17,10 +17,10 @@ public class AddDomainPage {
 	private String addNewTargetTxtBox="#add_new_target";
 	private String addNewTargetAddBtn= "div[class='d-flex justify-content-end mt-n4'] button[type='button']";
 	private String upStreamProtocol ="div[class='ant-btn-group'] button:nth-child(1)";
-	private String shadowDomainTab = "text=Shadow Domain";
+	private String shadowDomainTab = "//div[@role='tab'][normalize-space()='Shadow domain']";
 	private String shadowDomainTxtBox = "#uid-n03l1pmaevg";
 	private String addPlusIcon ="button[class='btn close btn-black btn-sm']";
-	private String saveBtn = "div[class='d-flex justify-content-end mt-n4'] button[type='button']";
+	private String saveBtn = "button[class='ant-btn ant-btn-primary']";
 	
 	public void doFillBasicConfiguration(String domainNameVal, String addNewTargetVal,String shadowDomainVal) {
 		elementUtils.doFill(domainNameTxtBox, domainNameVal);
