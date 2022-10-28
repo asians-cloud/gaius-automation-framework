@@ -1,0 +1,5 @@
+# Created at 2022-10-27T20:47:40.690
+Boot Manifest-JAR contains absolute paths in classpath 'D:\eclipse-projects\gaius_console_automation_framework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
