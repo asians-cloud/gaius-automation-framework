@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-28T18:58:37 IST" name="Gaius Console Regression Automation Suite" finished-at="2022-10-28T18:59:23 IST" duration-ms="45729">
+  <suite started-at="2022-10-28T19:02:04 IST" name="Gaius Console Regression Automation Suite" finished-at="2022-10-28T19:02:38 IST" duration-ms="33512">
     <groups>
     </groups>
-    <test started-at="2022-10-28T18:58:37 IST" name="Gaius Loginpage test" finished-at="2022-10-28T18:59:05 IST" duration-ms="27412">
+    <test started-at="2022-10-28T19:02:04 IST" name="Gaius Loginpage test" finished-at="2022-10-28T19:02:23 IST" duration-ms="19409">
       <class name="com.gaius.console.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.gaius.console.tests.LoginPageTest@4bb1b96b]" started-at="2022-10-28T18:58:37 IST" name="setup" finished-at="2022-10-28T18:59:03 IST" duration-ms="25711" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.gaius.console.tests.LoginPageTest@41bfa9e9]" started-at="2022-10-28T19:02:04 IST" name="setup" finished-at="2022-10-28T19:02:22 IST" duration-ms="18280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.gaius.console.tests.LoginPageTest@4bb1b96b]" started-at="2022-10-28T18:59:03 IST" name="verifyLoginPageTitleTest" finished-at="2022-10-28T18:59:04 IST" duration-ms="1224" status="PASS">
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.gaius.console.tests.LoginPageTest@41bfa9e9]" started-at="2022-10-28T19:02:22 IST" name="verifyLoginPageTitleTest" finished-at="2022-10-28T19:02:23 IST" duration-ms="672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method signature="verifyForgotPasswordLinkExistTest()[pri:2, instance:com.gaius.console.tests.LoginPageTest@4bb1b96b]" started-at="2022-10-28T18:59:04 IST" name="verifyForgotPasswordLinkExistTest" finished-at="2022-10-28T18:59:04 IST" duration-ms="203" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkExistTest()[pri:2, instance:com.gaius.console.tests.LoginPageTest@41bfa9e9]" started-at="2022-10-28T19:02:23 IST" name="verifyForgotPasswordLinkExistTest" finished-at="2022-10-28T19:02:23 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPasswordLinkExistTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gaius.console.tests.LoginPageTest@4bb1b96b]" started-at="2022-10-28T18:59:04 IST" name="tearDown" finished-at="2022-10-28T18:59:05 IST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gaius.console.tests.LoginPageTest@41bfa9e9]" started-at="2022-10-28T19:02:23 IST" name="tearDown" finished-at="2022-10-28T19:02:23 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gaius.console.tests.LoginPageTest -->
     </test> <!-- Gaius Loginpage test -->
-    <test started-at="2022-10-28T18:59:05 IST" name="Gaius Homepage test" finished-at="2022-10-28T18:59:23 IST" duration-ms="17504">
+    <test started-at="2022-10-28T19:02:24 IST" name="Gaius Homepage test" finished-at="2022-10-28T19:02:38 IST" duration-ms="13279">
       <class name="com.gaius.console.tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.gaius.console.tests.HomePageTest@35650279]" started-at="2022-10-28T18:59:05 IST" name="setup" finished-at="2022-10-28T18:59:20 IST" duration-ms="14251" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.gaius.console.tests.HomePageTest@3292d91a]" started-at="2022-10-28T19:02:24 IST" name="setup" finished-at="2022-10-28T19:02:33 IST" duration-ms="8631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.gaius.console.tests.HomePageTest@35650279]" started-at="2022-10-28T18:59:20 IST" name="verifyHomePageTitleTest" finished-at="2022-10-28T18:59:23 IST" duration-ms="3118" status="PASS">
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.gaius.console.tests.HomePageTest@3292d91a]" started-at="2022-10-28T19:02:33 IST" name="verifyHomePageTitleTest" finished-at="2022-10-28T19:02:37 IST" duration-ms="4475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gaius.console.tests.HomePageTest@35650279]" started-at="2022-10-28T18:59:23 IST" name="tearDown" finished-at="2022-10-28T18:59:23 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gaius.console.tests.HomePageTest@3292d91a]" started-at="2022-10-28T19:02:37 IST" name="tearDown" finished-at="2022-10-28T19:02:38 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
