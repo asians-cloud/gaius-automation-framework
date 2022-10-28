@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="34.107" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.489" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,7 +64,7 @@
     <property name="library.jansi.path" value="D:\apache-maven-3.8.6\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="verifyLoginPageTitleTest" classname="com.gaius.console.tests.LoginPageTest" time="0.786"/>
-  <testcase name="verifyForgotPasswordLinkExistTest" classname="com.gaius.console.tests.LoginPageTest" time="0.236"/>
-  <testcase name="verifyHomePageTitleTest" classname="com.gaius.console.tests.HomePageTest" time="2.737"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.gaius.console.tests.LoginPageTest" time="0.76"/>
+  <testcase name="verifyForgotPasswordLinkExistTest" classname="com.gaius.console.tests.LoginPageTest" time="0.176"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.gaius.console.tests.HomePageTest" time="1.495"/>
 </testsuite>
